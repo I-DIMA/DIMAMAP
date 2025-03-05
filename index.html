@@ -12,7 +12,7 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIMA MAP</title>
+    <title>D-MAP</title>
     <style>
         /* 기본 스타일 */
         body, html {
@@ -718,7 +718,7 @@
     <div class="control-panel">
         <!-- 검색 창 -->
         <div class="search-container">
-            <span class="search-title">DIMA MAP</span> <!-- 타이틀 추가 -->
+            <span class="search-title">D-MAP</span> <!-- 타이틀 추가 -->
             <input type="text" class="search-input" placeholder="검색어를 입력하세요..." id="search-input">
             <div class="search-results" id="search-results"></div>
         </div>
@@ -757,9 +757,9 @@
     </div>
 
     <nav class="mobile-nav">
-        <a href="https://i-dima.github.io" class="nav-item">
+        <a href="https://d-mate-25.github.io" class="nav-item">
             <span>🏠</span>
-            <span>I-DIMA 홈</span>
+            <span>D-MATE 홈</span>
         </a>
         <a href="#" class="nav-item">
             <span>🔍</span>
@@ -783,9 +783,9 @@
         <p style="word-break: keep-all;">정보는 대학 홈페이지와 표지판을 기반으로 하며 잘못된 정보가 있을 수 있습니다</p>
         <p style="word-break: keep-all;">잘못된 정보나 추가할 사항이 있을 경우에 언제든 연락주세요!</p>
         <p>원활한 운영을 위해 네이버, 구글 애널리틱스로 방문자 수 등을 집계하고 있습니다</p>
-        <p>리스트 업데이트 : 2025.02.20</p>
-        <p>제작 : I DIMA 프로젝트</p>
-        <a href="https://i-dima.github.io/service" target="_blank">(이용약관ㅣ개인정보처리방침)</a>
+        <p>리스트 업데이트 : 2025.03.04</p>
+        <p>제작 : D-MATE 프로젝트</p>
+        <a href="https://d-mate-25.github.io/service" target="_blank">(이용약관ㅣ개인정보처리방침)</a>
     </div>
 </div>
 </body>
@@ -4340,7 +4340,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const pathParts = window.location.pathname.split('/');
     const locationName = pathParts[pathParts.length - 1];
     
-    if (locationName && locationName !== 'DIMAMAP') {
+    if (locationName && locationName !== 'd-map') {
         setTimeout(handleUrlPinLocation, 500);
     }
 });
